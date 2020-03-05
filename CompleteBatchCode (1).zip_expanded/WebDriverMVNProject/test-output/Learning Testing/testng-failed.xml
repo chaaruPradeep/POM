@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning Testing]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Dependency Test(failed)">
+    <groups>
+      <run>
+        <exclude name="p1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testnglearning.TestCase3">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- testnglearning.TestCase3 -->
+    </classes>
+  </test> <!-- Dependency Test(failed) -->
+</suite> <!-- Failed suite [Learning Testing] -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning Testing">
+ <groups>
+    <run>
+      <exclude name="p1"/>
+    </run>
+  </groups>
+
+
+	<listeners>
+	
+		<listener class-name="listeners.CustomListeners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+	
+	
+
+
+  <test name="Login Test">
+  
+ 
+    <classes>
+      <class name="testnglearning.TestCase1"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Validate Title Test">
+    <classes>
+ 
+      <class name="testnglearning.TestCase2"/>
+
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Dependency Test">
+    <classes>
+         <class name="testnglearning.TestCase3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

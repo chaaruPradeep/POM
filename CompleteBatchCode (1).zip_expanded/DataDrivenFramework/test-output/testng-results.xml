@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDriven Testing" duration-ms="1971" started-at="2018-09-02T06:55:29Z" finished-at="2018-09-02T06:55:31Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="358" started-at="2018-09-02T06:55:29Z" finished-at="2018-09-02T06:55:29Z">
+      <class name="testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@4afcd809]" name="loginAsBankManager" duration-ms="330" started-at="2018-09-02T06:55:29Z" finished-at="2018-09-02T06:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="780" started-at="2018-09-02T06:55:29Z" finished-at="2018-09-02T06:55:30Z">
+      <class name="testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@1f2586d6]" name="addCustomer" duration-ms="761" started-at="2018-09-02T06:55:29Z" data-provider="getData" finished-at="2018-09-02T06:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test name="Open Account Test" duration-ms="802" started-at="2018-09-02T06:55:30Z" finished-at="2018-09-02T06:55:31Z">
+      <class name="testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@217ed35e]" name="setUp" is-config="true" duration-ms="8656" started-at="2018-09-02T06:55:20Z" finished-at="2018-09-02T06:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@217ed35e]" name="openAccount" duration-ms="798" started-at="2018-09-02T06:55:30Z" data-provider="getData" finished-at="2018-09-02T06:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@217ed35e]" name="tearDown" is-config="true" duration-ms="940" started-at="2018-09-02T06:55:31Z" finished-at="2018-09-02T06:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- DataDriven Testing -->
+</testng-results>

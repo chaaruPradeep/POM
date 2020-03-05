@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Testing">
+
+
+
+
+	
+	
+	<test name="Test Case 4">
+
+
+		<classes>
+			<class name="rough.TestCase4" />
+
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test name="Upload Photo Test">
+
+
+		<classes>
+			<class name="testcases.UploadPhotoTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

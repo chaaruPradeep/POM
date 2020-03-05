@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing (0)]">
+  <test thread-count="5" name="Test Case 3(failed)">
+    <classes>
+      <class name="rough.TestCase3">
+        <methods>
+          <include name="secondTest"/>
+        </methods>
+      </class> <!-- rough.TestCase3 -->
+    </classes>
+  </test> <!-- Test Case 3(failed) -->
+</suite> <!-- Failed suite [Functional Testing (0)] -->

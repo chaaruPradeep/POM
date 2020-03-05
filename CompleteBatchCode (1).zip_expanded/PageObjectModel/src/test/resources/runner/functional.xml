@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Testing">
+
+
+
+
+
+
+	
+	
+	<test name="Test Case 3">
+
+
+		<classes>
+			<class name="rough.TestCase3" />
+
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+
+</suite> <!-- Suite -->
